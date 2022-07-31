@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkviolet;
+    border-radius: 10px;
+    padding: 20px;
+}
+.text-section{
+    line-height: 25px;
+    color:#fff;
+}
+
+.yellow-text{
+    border-left: 3px solid gold;
+    padding-left: 10px;
+    color: gold;
+}
+.white-text{
+    padding-left: 14px;
+}
+
+.marked{
+    background-color: bisque;
+    color: #000;
+}
+#download-button {
+    background: orange;
+    border-style: none;
+    border-radius: 9px;
+    padding: 10px;
+    cursor:pointer;
+    margin-top: 20px; 
+}
+
+#download-button:hover {
+    background-color: red;
+}
